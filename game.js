@@ -11,6 +11,7 @@ $(document).keydown(function() {
   }
 });
 
+
 $(".btn").click(function(event) {
   var userChosenColour = event.target.id;
   userClickedPattern.push(userChosenColour);
